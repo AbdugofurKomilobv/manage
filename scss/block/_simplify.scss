@@ -1,0 +1,54 @@
+.simplify
+{
+    background-color: rgb(243, 96, 60);
+    margin-top: 161px;
+    
+}
+
+.simplify_block
+{
+    display: flex;
+    justify-content: space-between;
+}
+.simplify__works h2
+{
+color: rgb(255, 255, 255);
+font-family: Be Vietnam;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+max-width: 445px;
+margin-top: 62px;
+margin-bottom: 62px;
+}
+.submit_btn
+{
+color: rgb(243, 96, 60);
+font-size: 13px;
+font-weight: 700;
+line-height: 19px;
+border-radius: 22px;
+box-shadow: 0px 15px 15px -10px rgb(219, 89, 67);
+background: rgb(255, 255, 255);
+border: none;
+padding: 12px 32px;
+margin-top: 88px;
+}
+@media screen and (max-width:900px) {
+    .simplify_block
+    {
+        flex-direction: column;
+       text-align: center;
+        
+    }
+    .simplify__works h2
+    {
+        max-width: 100%;
+    }
+    .submit_btn
+    {
+        margin-top: 10px;
+        margin-bottom: 91px;
+    }
+
+}

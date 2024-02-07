@@ -1,0 +1,105 @@
+.different_block
+{
+    margin-top: 132px;
+    display: flex;
+    justify-content:space-between;
+}
+.different_block__title
+{
+    max-width: 445px;
+}
+.title__part
+{
+    color: rgb(36, 45, 82);
+    font-family: Be Vietnam;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 24px;
+}
+.title__text
+{
+color: rgb(36, 45, 82);
+font-family: Be Vietnam;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.5;
+}
+.different_block__info
+{
+    max-width:540px;
+}
+
+
+.block__flexbox
+{
+    
+    display: flex;
+}
+.block__flexbox_one
+{
+    display: flex;
+    margin-top: 46px;
+}
+.block__flexbox_two
+{
+    display: flex;
+    margin-top: 46px; 
+}
+.block__flexbox_2
+{
+    max-width: 445px;
+}
+.btn_1
+{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+text-align: center;
+border-radius: 39px;
+background: rgb(243, 96, 60);
+padding: 6px 25px;
+}
+.block__flexbox_2
+{
+    margin-left: 28px;
+}
+.block__flexbox_2 h4
+{
+color: rgb(36, 45, 82);
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+margin-bottom: 19px;
+}
+.block__flexbox_2 p
+{
+color: rgb(36, 45, 82);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.5;
+}
+@media screen and (max-width:900px){
+    .different_block
+    {
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .title__part
+    {
+        text-align: center;
+    }
+    .title__text
+    {
+        text-align: center;
+        margin-bottom: 54px;
+    }
+}
+
+
+
+
